@@ -1,0 +1,17 @@
+{
+	"name": "managerTRigger",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Stopped",
+		"pipelines": [],
+		"type": "BlobEventsTrigger",
+		"typeProperties": {
+			"blobPathBeginsWith": "/source/blobs/csvfiles/Fact_Sales1.csv",
+			"ignoreEmptyBlobs": true,
+			"scope": "/subscriptions/a84c8c51-2487-48de-97f4-bdafaaed531e/resourceGroups/RG-Devi-ADF/providers/Microsoft.Storage/storageAccounts/storagedevanshi",
+			"events": [
+				"Microsoft.Storage.BlobCreated"
+			]
+		}
+	}
+}

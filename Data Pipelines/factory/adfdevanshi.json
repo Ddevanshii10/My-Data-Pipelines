@@ -1,0 +1,9 @@
+{
+	"name": "adfdevanshi",
+	"location": "southeastasia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "900159fb-0918-471b-b9ef-1dc304d08a0a",
+		"tenantId": "53c03d1f-6834-4c94-ae4c-640e956db31d"
+	}
+}
