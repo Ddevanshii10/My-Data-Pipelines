@@ -19,7 +19,8 @@ The repository contains the exact configuration blueprints (JSON templates) for 
 ---
 ## 2. Solution Architecture
 The architecture represents an industry-standard, multi-zone landing pipeline inside ADLS Gen2. 
-![Architecture Diagram](images/adf_architecture.png)
+![Architecture Diagram](<img width="1024" height="1024" alt="image" src="https://github.com/user-attachments/assets/dcfeca5a-a51f-4ced-b25a-0b2e3b167416" />
+)
 The framework organizes files into three logical zones:
 1. **Source Zone (Raw Landing):** Receives external file uploads (e.g., `Fact_Sales_1.csv`).
 2. **Destination Zone (Staging):** Holds copies of ingested raw files and external HTTP feeds for validation and filtering.
